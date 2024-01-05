@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.header-bg {
+  background: #182c61;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #fff;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 14px 0;
+  font-family: "Bungee", cursive;
+}
+
+.logo a {
+  color: #ECF0F1;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.lista {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.lista a {
+  color: #ECF0F1;
+  font-size: 1.125rem;
+  font-weight: 400;
+}
+
+main {
+  display: flex;
+  max-width: 1280px;
+  gap: 40px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  justify-content: space-between;
+  padding: 24px 0;
+}
+
+.conteudo {
+  width: 50%;
+  align-self: start;
+}
+
+.conteudo h1 {
+  font-size: 1.5rem;
+  color: #182c61;
+  font-weight: 400;
+  margin-bottom: 16px;
+  font-family: 'Bungee', cursive;
+}
+
+.conteudo p {
+  margin-bottom: 10px;
+  text-align: justify;
+  font-family: 'Roboto', sans-serif;
+  color: #182C61;
+}
+
+.imagens-lista {
+  display: flex;
+  max-width: 210px;
+  align-items: center;
+  gap: 10px;
+}
+
+.imagens-lista img {
+  width: 100px;
+  object-fit: cover;
+}
+
+#play {
+  width: 40px;
+}
+
+.contato h1 {
+  max-width: 1280px;
+  margin: 0 auto;
+  font-family: 'Bungee', cursive;
+  color: #182C61;
+  font-weight: 400;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.container-contato {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+
+.container-contato h2 {
+  color: #182C61;
+  font-family: 'Bungee', cursive;
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.container-contato form {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 320px;
+}
+
+.container-contato form input{
+  height: 32px;
+  padding: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.container-contato form textarea{
+  padding: 16px;
+  font-family: 'Roboto', sans-serif;
+  resize: none;
+}
+
+.container-contato input:focus,
+.container-contato textarea:focus{
+  outline-color: #182C61;
+}
+
+.container-contato form button{
+  font-family: 'Bungee', cursive;
+  font-size: .875rem;
+  padding: 6px 0;
+  background: #182C61;
+  color: #ECF0F1;
+  border: none;
+  box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, .30);
+  cursor: pointer;
+  transition: .3s;
+}
+
+.container-contato form button:hover{
+  background: #314E9E;
+}
+
+
+.acompanhe ul {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.acompanhe ul img {
+  width: 30px;
+}
+
+.endereco p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+}
+
+footer{
+  background: #182C61;
+}
+
+footer p {
+  text-align: center;
+  padding: 16px 0;
+  color: #ECF0F1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+}
